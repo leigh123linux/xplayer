@@ -20,6 +20,7 @@ AM_CPPFLAGS = \
 	-I$(srcdir)/plugins
 
 AM_CFLAGS = $(WARN_CFLAGS)
+AM_LDFLAGS = $(WARN_LDFLAGS)
 
 # Header files installed for use by plugins (and consequently introspected using gobject-introspection; see the bottom of the Makefile)
 INST_H_FILES = \
